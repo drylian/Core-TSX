@@ -1,0 +1,90 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "reportUnusedDisableDirectives": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "commonjs",
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "./"
+  },
+  "parser": "@typescript-eslint/parser",
+  "overrides": [
+    {
+      "env": {
+        "node": true
+      },
+      "files": [
+        ".eslintrc.{ts,tsx,mjs,js,cjs}"
+      ],
+      "parserOptions": {
+        "sourceType": "script"
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    },
+    "linkComponents": [
+      {
+        "name": "Link",
+        "linkAttribute": "to"
+      },
+      {
+        "name": "NavLink",
+        "linkAttribute": "to"
+      }
+    ]
+  },
+  "extends": [
+    "eslint-config-prettier",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "prettier",
+    "react-refresh",
+    "import"
+  ],
+  "ignorePatterns": [
+    "tools",
+    "node_modules"
+  ],
+  "rules": {
+    "no-new": "off",
+    "import/no-unused-modules": "error",
+    "@typescript-eslint/naming-convention": "off",
+    "react-refresh/only-export-components": "warn",
+    "indent": [
+      "error",
+      "tab"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "react/react-in-jsx-scope": "off",
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}

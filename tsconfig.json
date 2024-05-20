@@ -1,0 +1,47 @@
+{
+  "include": [
+    "app"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2021",
+      "DOM.Iterable"
+    ],
+    "target": "es6",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./app/*"
+      ],
+      "@/Assets/*": [
+        "./app/Http/Assets/*"
+      ],
+      "@/Server/*": [
+        "./app/Resources/Server/*"
+      ],
+      "@/Client/*": [
+        "./app/Resources/Client/*"
+      ],
+      "@/Install/*": [
+        "./app/Resources/Install/*"
+      ]
+    },
+    "outDir": "dist",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

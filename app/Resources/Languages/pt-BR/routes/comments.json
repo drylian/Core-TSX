@@ -1,0 +1,5 @@
+{
+    "CommentaryForJson":"Argumentos do Route devem ser colocados aqui",
+    "ApiPingComment":"Mostra o ping atual do painel.",
+    "LanguagesComment":"Mostra as linguagens do painel, variando dependendo da lang ou do namespace"
+}

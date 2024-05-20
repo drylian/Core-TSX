@@ -1,0 +1,36 @@
+{
+    "Errors": {
+        "400": {
+            "description": "A solicitação enviada é inválida ou está ausente de informações essenciais. Por favor, verifique e envie uma solicitação válida.",
+            "keywords": "Solicitação inválida, Dados ausentes, Parâmetros incorretos, {{lang}}, Erro 400, Requisição incorreta"
+        },
+        "401": {
+            "description": "Autenticação falhou ou não fornecida. Faça login ou forneça credenciais válidas para acessar este recurso.",
+            "keywords": "Falha na autenticação, Não autorizado, Credenciais inválidas, {{lang}}, Erro 401, Acesso não autorizado"
+        },
+        "404": {
+            "description": "Página não encontrada no sistema interno. Verifique a URL atentamente antes de tentar novamente.",
+            "keywords": "Página não encontrada, Recurso não encontrado, não encontrado, configuração não encontrada, {{lang}}, Erro, Erro 404"
+        },
+        "500": {
+            "description": "Erro interno no sistema. Entre em contato com o suporte técnico para obter assistência.",
+            "keywords": "Erro interno, Problema técnico, {{lang}}, Erro 500, Erro no servidor"
+        },
+        "403": {
+            "description": "Você não tem permissão para acessar este recurso. Por favor, entre em contato com o administrador do sistema para obter permissões adequadas.",
+            "keywords": "Acesso negado, Sem permissão, Proibido, {{lang}}, Erro 403, Restrição de acesso"
+        },
+        "406": {
+            "description": "A solicitação enviada é inválida ou está ausente de informações essenciais. Por favor, verifique e envie uma solicitação válida.",
+            "keywords": "Solicitação inválida, Dados ausentes, Parâmetros incorretos, {{lang}}, Erro 400, Requisição incorreta"
+        },
+        "Cors":{
+            "description": "Solicitação enviada foi recusada pelo CORS.",
+            "keywords": "Solicitação recusada, cors, Recusado, {{lang}}, Erro 401, Requisição imcompleta"
+        }
+    },
+    "Json": {
+        "description": "A solicitação foi processada com sucesso. Os dados solicitados foram retornados na resposta JSON.",
+        "keywords": "Sucesso, Resposta JSON, Dados bem-sucedidos, {{lang}}, OK 200, Json"
+    }
+}
